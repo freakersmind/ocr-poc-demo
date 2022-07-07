@@ -1,0 +1,34 @@
+<div class = "main">
+    <div>
+        <label>Remit Address</label>
+        <input id = 'Remit Address' class = "form-field-dyamic" type="text" (focus)="readFocus($event.target)">
+        <label>Sold to</label>
+        <input id = 'Sold to' class = "form-field-dyamic" type="text" (focus)="readFocus($event.target)">
+        <label>Sold to address</label>
+        <input id = 'Sold to address' class = "form-field-dyamic" type="text"  (focus)="readFocus($event.target)">
+        <label>Ship to</label>
+        <input id = 'Ship to' class = "form-field-dyamic" type="text" (focus)="readFocus($event.target)">
+        <label>Ship to address</label>
+        <input id = 'Ship to address' class = "form-field-dyamic" type="text" (focus)="readFocus($event.target)">
+        <label>Customer PO</label>
+        <input id = 'Customer PO' class = "form-field-dyamic" type="text" (focus)="readFocus($event.target)">
+        <label>Terms of payment</label>
+        <input id = 'Terms of payment' class = "form-field-dyamic" type="text" (focus)="readFocus($event.target)">
+        <label>Invoice date</label>
+        <input id = 'Invoice date' class = "form-field-dyamic" type="text"(focus)="readFocus($event.target)">
+        <label>Invoice No</label>
+        <input id = 'Invoice No' class = "form-field-dyamic" type="text" (focus)="readFocus($event.target)">
+        <label>Invoice amount</label>
+        <input id = 'Invoice amount' class = "form-field-dyamic" type="text" (focus)="readFocus($event.target)">
+
+<button (click)="rotateRight()">Rotate Right</button>
+<button (click)="rotateLeft()">Rotate Left</button>
+<button (click)="zoomIn()">Zoom in</button>
+<button (click)="zoomOut()">Zoom out</button>
+    </div>
+    <div>
+        <canvas id="canvas" style="border:1px solid #d3d3d3;" width="1024px" height="1024px">
+        Your browser does not support the HTML5 canvas tag.
+        </canvas>
+    </div>
+</div>
